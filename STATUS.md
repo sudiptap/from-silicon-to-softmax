@@ -13,13 +13,13 @@ Updated: 2026-06-04
 | 3  | ML Internals & Optimization  | 11 | ✅ | 11 / 11 |
 | 4  | MLX & Apple Silicon Internals | 12 | ✅ | 12 / 12 |
 | 5  | Mobile & Edge Runtimes        | 10 | ✅ | 10 / 10 |
-| 6  | On-Device LLM Inference       | 12 | ✅ | 0 / 12 |
+| 6  | On-Device LLM Inference       | 12 | ✅ | 12 / 12 |
 | 7  | Inference from Scratch        | 54 | ✅ | 0 / 54 |
 | 8  | Distributed Systems          | ~11 | ⬜ | 0 / 11 |
 | 9  | Cluster Orchestration         | 15 | ✅ | 0 / 15 |
 | 10 | ML Platform Engineering       | 14 | ✅ | 0 / 14 |
 | 11 | Agents from Scratch           | 24 | ✅ | 0 / 24 |
-|    | **Total**                     | **188** |  | **58 / 188** |
+|    | **Total**                     | **188** |  | **70 / 188** |
 
 Legend: ✅ done · 🟡 in progress · ⬜ not started
 
@@ -106,7 +106,20 @@ See [overview](lessons/05-mobile-edge-runtimes/00-overview.md). All 10 lessons d
 10. [The Runtime Decision Tree](lessons/05-mobile-edge-runtimes/10-runtime-decision-tree.md)
 
 ### 6. On-Device LLM Inference
-See [overview](lessons/on-device-llm-inference-overview.md).
+See [overview](lessons/06-on-device-llm-inference/00-overview.md). All 12 lessons drafted:
+
+1. [The On-Device LLM Stack](lessons/06-on-device-llm-inference/01-on-device-stack.md)
+2. [Picking the Model](lessons/06-on-device-llm-inference/02-picking-the-model.md)
+3. [Aggressive Quantization Recipes](lessons/06-on-device-llm-inference/03-aggressive-quantization-recipes.md)
+4. [Mixed Precision and Per-Channel Quantization](lessons/06-on-device-llm-inference/04-mixed-precision.md)
+5. [Pruning and Distillation as a Complement](lessons/06-on-device-llm-inference/05-pruning-distillation-complement.md)
+6. [KV Cache for Tiny Memory Budgets](lessons/06-on-device-llm-inference/06-kv-cache-tiny-budget.md)
+7. [Memory-Mapped Weights and Weight Streaming](lessons/06-on-device-llm-inference/07-mmap-weight-streaming.md)
+8. [Streaming Generation Patterns](lessons/06-on-device-llm-inference/08-streaming-generation.md)
+9. [Speculative Decoding On-Device](lessons/06-on-device-llm-inference/09-speculative-decoding.md)
+10. [LoRA Hot-Swap](lessons/06-on-device-llm-inference/10-lora-hotswap.md)
+11. [On-Device Multimodal](lessons/06-on-device-llm-inference/11-on-device-multimodal.md)
+12. [Real-Time Interactive Use Cases (Module Wrap)](lessons/06-on-device-llm-inference/12-real-time-interactive-wrap.md)
 
 ### 7. Inference from Scratch
 See [overview](lessons/inference-from-scratch-overview.md). 54 lessons across 9 parts (attention, positional encodings, KV cache, sampling, MoE, quantization, serving, long context, block-level choices).
@@ -141,4 +154,4 @@ Lessons are generated in batches across sessions, in order. Each generated lesso
 
 ## Currently being written
 
-**Modules 1–5 complete (58/188).** Next session: Module 6 — On-Device LLM Inference.
+**Modules 1–6 complete (70/188).** Next session: Module 7 — Inference from Scratch (54 lessons across 9 parts).
