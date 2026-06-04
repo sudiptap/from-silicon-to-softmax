@@ -11,7 +11,7 @@ Updated: 2026-06-04
 | 1  | The Low-Level Foundation     | 12 | ✅ | 12 / 12 |
 | 2  | GPU & Parallelism            | 13 | ✅ | 13 / 13 |
 | 3  | ML Internals & Optimization  | 11 | ✅ | 11 / 11 |
-| 4  | MLX & Apple Silicon Internals | 12 | ✅ | 0 / 12 |
+| 4  | MLX & Apple Silicon Internals | 12 | ✅ | 12 / 12 |
 | 5  | Mobile & Edge Runtimes        | 10 | ✅ | 0 / 10 |
 | 6  | On-Device LLM Inference       | 12 | ✅ | 0 / 12 |
 | 7  | Inference from Scratch        | 54 | ✅ | 0 / 54 |
@@ -19,7 +19,7 @@ Updated: 2026-06-04
 | 9  | Cluster Orchestration         | 15 | ✅ | 0 / 15 |
 | 10 | ML Platform Engineering       | 14 | ✅ | 0 / 14 |
 | 11 | Agents from Scratch           | 24 | ✅ | 0 / 24 |
-|    | **Total**                     | **188** |  | **36 / 188** |
+|    | **Total**                     | **188** |  | **48 / 188** |
 
 Legend: ✅ done · 🟡 in progress · ⬜ not started
 
@@ -76,7 +76,20 @@ See [overview](lessons/03-ml-internals/00-overview.md). All 11 lessons drafted:
 11. [Module Wrap: Picking Your Compression Budget](lessons/03-ml-internals/11-module-wrap.md)
 
 ### 4. MLX & Apple Silicon Internals
-See [overview](lessons/mlx-apple-silicon-overview.md).
+See [overview](lessons/04-mlx-apple-silicon/00-overview.md). All 12 lessons drafted:
+
+1. [The M-Series SoC at a Glance](lessons/04-mlx-apple-silicon/01-m-series-soc.md)
+2. [Unified Memory Architecture](lessons/04-mlx-apple-silicon/02-unified-memory.md)
+3. [The Memory Hierarchy on Apple Silicon](lessons/04-mlx-apple-silicon/03-memory-hierarchy.md)
+4. [Metal & Metal Performance Shaders](lessons/04-mlx-apple-silicon/04-metal-mps.md)
+5. [PyTorch's MPS Backend](lessons/04-mlx-apple-silicon/05-pytorch-mps.md)
+6. [MLX Intro](lessons/04-mlx-apple-silicon/06-mlx-intro.md)
+7. [MLX Internals](lessons/04-mlx-apple-silicon/07-mlx-internals.md)
+8. [Custom Metal Kernels from MLX](lessons/04-mlx-apple-silicon/08-custom-metal-kernels.md)
+9. [KV Cache Strategies on Unified Memory](lessons/04-mlx-apple-silicon/09-kv-cache-unified-memory.md)
+10. [Quantization on Apple Silicon](lessons/04-mlx-apple-silicon/10-quantization-apple-silicon.md)
+11. [The Apple Neural Engine](lessons/04-mlx-apple-silicon/11-apple-neural-engine.md)
+12. [Picking Your Tool](lessons/04-mlx-apple-silicon/12-picking-your-tool.md)
 
 ### 5. Mobile & Edge Runtimes
 See [overview](lessons/mobile-edge-runtimes-overview.md).
@@ -117,4 +130,4 @@ Lessons are generated in batches across sessions, in order. Each generated lesso
 
 ## Currently being written
 
-**Module 1 complete (12/12). Module 2 complete (13/13). Module 3 complete (11/11).** Next session: Module 4 — MLX & Apple Silicon Internals.
+**Modules 1–4 complete (48/48 across the depth-track foundation).** Next session: Module 5 — Mobile & Edge Runtimes.
