@@ -16,10 +16,10 @@ Updated: 2026-06-04
 | 6  | On-Device LLM Inference       | 12 | ✅ | 12 / 12 |
 | 7  | Inference from Scratch        | 54 | ✅ | 54 / 54 |
 | 8  | Distributed Systems          | 11 | ✅ | 11 / 11 |
-| 9  | Cluster Orchestration         | 15 | ✅ | 0 / 15 |
+| 9  | Cluster Orchestration         | 15 | ✅ | 15 / 15 |
 | 10 | ML Platform Engineering       | 14 | ✅ | 0 / 14 |
 | 11 | Agents from Scratch           | 24 | ✅ | 0 / 24 |
-|    | **Total**                     | **188** |  | **135 / 188** |
+|    | **Total**                     | **188** |  | **150 / 188** |
 
 Legend: ✅ done · 🟡 in progress · ⬜ not started
 
@@ -150,7 +150,23 @@ See [overview](lessons/08-distributed-systems/00-overview.md). All 11 lessons dr
 11. [Module Wrap: Building a 3D-Parallel Training Run](lessons/08-distributed-systems/11-module-wrap.md)
 
 ### 9. Cluster Orchestration
-See [overview](lessons/cluster-orchestration-overview.md).
+See [overview](lessons/09-cluster-orchestration/00-overview.md). All 15 lessons drafted:
+
+1. [Kubernetes for ML](lessons/09-cluster-orchestration/01-kubernetes-for-ml.md)
+2. [NVIDIA GPU Operator + Device Plugin](lessons/09-cluster-orchestration/02-nvidia-gpu-operator.md)
+3. [The Cluster-Side View of a Training Job](lessons/09-cluster-orchestration/03-training-job-anatomy.md)
+4. [Kueue](lessons/09-cluster-orchestration/04-kueue.md)
+5. [Volcano](lessons/09-cluster-orchestration/05-volcano.md)
+6. [MPI Operator](lessons/09-cluster-orchestration/06-mpi-operator.md)
+7. [Training Operator (Kubeflow)](lessons/09-cluster-orchestration/07-training-operator.md)
+8. [Slurm](lessons/09-cluster-orchestration/08-slurm.md)
+9. [Slurm vs Kubernetes](lessons/09-cluster-orchestration/09-slurm-vs-kubernetes.md)
+10. [KubeRay](lessons/09-cluster-orchestration/10-kuberay.md)
+11. [Topology-Aware Scheduling](lessons/09-cluster-orchestration/11-topology-aware-scheduling.md)
+12. [Multi-Tenancy](lessons/09-cluster-orchestration/12-multi-tenancy.md)
+13. [Spot / Preemptible Scheduling](lessons/09-cluster-orchestration/13-spot-preemptible.md)
+14. [Storage for Clusters](lessons/09-cluster-orchestration/14-storage-for-clusters.md)
+15. [Cluster Networking + Module Wrap](lessons/09-cluster-orchestration/15-networking-and-wrap.md)
 
 ### 10. ML Platform Engineering
 See [overview](lessons/ml-platform-engineering-overview.md).
@@ -164,4 +180,4 @@ Lessons are generated in batches across sessions, in order. Each generated lesso
 
 ## Currently being written
 
-**Modules 1–8 complete (135/188 = 72%).** Next session: Module 9 — Cluster Orchestration (15 lessons).
+**Modules 1–9 complete (150/188 = 80%).** Next session: Module 10 — ML Platform Engineering (14 lessons).
