@@ -18,8 +18,8 @@ Updated: 2026-06-04
 | 8  | Distributed Systems          | 11 | ✅ | 11 / 11 |
 | 9  | Cluster Orchestration         | 15 | ✅ | 15 / 15 |
 | 10 | ML Platform Engineering       | 14 | ✅ | 14 / 14 |
-| 11 | Agents from Scratch           | 24 | ✅ | 0 / 24 |
-|    | **Total**                     | **188** |  | **164 / 188** |
+| 11 | Agents from Scratch           | 24 | ✅ | 24 / 24 |
+|    | **Total**                     | **188** |  | **188 / 188** |
 
 Legend: ✅ done · 🟡 in progress · ⬜ not started
 
@@ -187,7 +187,18 @@ See [overview](lessons/10-ml-platform-engineering/00-overview.md). All 14 lesson
 14. [Incident Response + Module Wrap](lessons/10-ml-platform-engineering/14-incident-response-wrap.md)
 
 ### 11. Agents from Scratch
-See [overview](lessons/agents-from-scratch-overview.md).
+See [overview](lessons/11-agents-from-scratch/00-overview.md). All 24 lessons drafted across 10 parts:
+
+Part 1 — Agent loop: lessons [1](lessons/11-agents-from-scratch/01-react-from-scratch.md)–[3](lessons/11-agents-from-scratch/03-planner-vs-worker.md).
+Part 2 — Tool use: lessons [4](lessons/11-agents-from-scratch/04-native-function-calling.md)–[6](lessons/11-agents-from-scratch/06-designing-tools.md).
+Part 3 — Memory: lessons [7](lessons/11-agents-from-scratch/07-memory-hierarchy.md)–[8](lessons/11-agents-from-scratch/08-memory-compaction.md).
+Part 4 — RAG: lessons [9](lessons/11-agents-from-scratch/09-rag-core-pipeline.md)–[12](lessons/11-agents-from-scratch/12-agentic-rag.md).
+Part 5 — Planning: lessons [13](lessons/11-agents-from-scratch/13-plan-execute-tot.md)–[14](lessons/11-agents-from-scratch/14-self-reflection-verifiers.md).
+Part 6 — Context engineering: lessons [15](lessons/11-agents-from-scratch/15-context-as-resource.md)–[16](lessons/11-agents-from-scratch/16-subagent-isolation.md).
+Part 7 — Multi-agent: lessons [17](lessons/11-agents-from-scratch/17-orchestrator-worker.md)–[18](lessons/11-agents-from-scratch/18-communication-failures.md).
+Part 8 — From scratch + MCP: lessons [19](lessons/11-agents-from-scratch/19-minimal-agent-100-lines.md)–[20](lessons/11-agents-from-scratch/20-mcp-from-scratch.md).
+Part 9 — Vertical agents: lessons [21](lessons/11-agents-from-scratch/21-coding-agents.md)–[22](lessons/11-agents-from-scratch/22-browser-computer-use.md).
+Part 10 — Production + wrap: lessons [23](lessons/11-agents-from-scratch/23-tracing-evaluation.md)–[24](lessons/11-agents-from-scratch/24-distributed-scheduling-wrap.md).
 
 ## Generation cadence
 
@@ -195,4 +206,4 @@ Lessons are generated in batches across sessions, in order. Each generated lesso
 
 ## Currently being written
 
-**Modules 1–10 complete (164/188 = 87%).** Next session: Module 11 — Agents from Scratch (final module; 24 lessons).
+**🎉 ALL ELEVEN MODULES COMPLETE (188/188 = 100%).** Curriculum drafted end-to-end: silicon → softmax → production agent platform.
