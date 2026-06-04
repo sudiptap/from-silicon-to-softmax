@@ -9,7 +9,7 @@ Updated: 2026-06-03
 | #  | Module | Lessons planned | Overview | Lessons drafted |
 | -- | ------ | --------------- | -------- | --------------- |
 | 1  | The Low-Level Foundation     | 12 | ✅ | 12 / 12 |
-| 2  | GPU & Parallelism            | 13 | ✅ | 4 / 13 |
+| 2  | GPU & Parallelism            | 13 | ✅ | 13 / 13 |
 | 3  | ML Internals & Optimization  | ~11 | ⬜ | 0 / 11 |
 | 4  | MLX & Apple Silicon Internals | 12 | ✅ | 0 / 12 |
 | 5  | Mobile & Edge Runtimes        | 10 | ✅ | 0 / 10 |
@@ -19,7 +19,7 @@ Updated: 2026-06-03
 | 9  | Cluster Orchestration         | 15 | ✅ | 0 / 15 |
 | 10 | ML Platform Engineering       | 14 | ✅ | 0 / 14 |
 | 11 | Agents from Scratch           | 24 | ✅ | 0 / 24 |
-|    | **Total**                     | **188** |  | **16 / 188** |
+|    | **Total**                     | **188** |  | **25 / 188** |
 
 Legend: ✅ done · 🟡 in progress · ⬜ not started
 
@@ -44,21 +44,21 @@ See [overview](lessons/01-bare-metal/00-overview.md). All 12 lessons drafted:
 12. [Module Wrap: From 1 GFLOPs to 50+ GFLOPs](lessons/01-bare-metal/12-module-wrap.md)
 
 ### 2. GPU & Parallelism
-See [overview](lessons/02-gpu-parallelism/00-overview.md). 4 of 13 lessons drafted:
+See [overview](lessons/02-gpu-parallelism/00-overview.md). All 13 lessons drafted:
 
 1. [The GPU Mental Model](lessons/02-gpu-parallelism/01-gpu-mental-model.md)
 2. [NVIDIA GPU Architecture](lessons/02-gpu-parallelism/02-nvidia-architecture.md)
 3. [Apple Silicon GPU Architecture](lessons/02-gpu-parallelism/03-apple-silicon-gpu-architecture.md)
 4. [CUDA Basics: Your First Kernel](lessons/02-gpu-parallelism/04-cuda-basics.md)
-5. CUDA Memory Hierarchy *(next session)*
-6. Triton: same GPU, 10× less code
-7. Metal Shading Language for Apple Silicon
-8. Kernel fusion
-9. The reduction problem
-10. FlashAttention demystified
-11. FlashAttention on Apple Silicon
-12. Profiling GPU kernels
-13. Module wrap
+5. [CUDA Memory Hierarchy](lessons/02-gpu-parallelism/05-cuda-memory-hierarchy.md)
+6. [Triton: Same GPU, 10× Less Code](lessons/02-gpu-parallelism/06-triton.md)
+7. [Metal Shading Language](lessons/02-gpu-parallelism/07-metal-shading-language.md)
+8. [Kernel Fusion](lessons/02-gpu-parallelism/08-kernel-fusion.md)
+9. [The Reduction Problem](lessons/02-gpu-parallelism/09-reduction-problem.md)
+10. [FlashAttention Demystified](lessons/02-gpu-parallelism/10-flashattention-demystified.md)
+11. [FlashAttention on Apple Silicon](lessons/02-gpu-parallelism/11-flashattention-apple.md)
+12. [Profiling GPU Kernels](lessons/02-gpu-parallelism/12-profiling-gpu-kernels.md)
+13. [Module Wrap: When to Leave the Compiler Alone](lessons/02-gpu-parallelism/13-module-wrap.md)
 
 ### 3. ML Internals & Optimization
 Overview pending. Planned lessons:
@@ -117,4 +117,4 @@ Lessons are generated in batches across sessions, in order. Each generated lesso
 
 ## Currently being written
 
-**Module 1 complete (12/12).** Module 2 partial (4/13). Next session resumes at Module 2, Lesson 5 (CUDA Memory Hierarchy).
+**Module 1 complete (12/12). Module 2 complete (13/13).** Next session: Module 3 — ML Internals & Optimization (quantization).
