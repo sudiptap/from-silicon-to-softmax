@@ -12,14 +12,14 @@ Updated: 2026-06-04
 | 2  | GPU & Parallelism            | 13 | ✅ | 13 / 13 |
 | 3  | ML Internals & Optimization  | 11 | ✅ | 11 / 11 |
 | 4  | MLX & Apple Silicon Internals | 12 | ✅ | 12 / 12 |
-| 5  | Mobile & Edge Runtimes        | 10 | ✅ | 0 / 10 |
+| 5  | Mobile & Edge Runtimes        | 10 | ✅ | 10 / 10 |
 | 6  | On-Device LLM Inference       | 12 | ✅ | 0 / 12 |
 | 7  | Inference from Scratch        | 54 | ✅ | 0 / 54 |
 | 8  | Distributed Systems          | ~11 | ⬜ | 0 / 11 |
 | 9  | Cluster Orchestration         | 15 | ✅ | 0 / 15 |
 | 10 | ML Platform Engineering       | 14 | ✅ | 0 / 14 |
 | 11 | Agents from Scratch           | 24 | ✅ | 0 / 24 |
-|    | **Total**                     | **188** |  | **48 / 188** |
+|    | **Total**                     | **188** |  | **58 / 188** |
 
 Legend: ✅ done · 🟡 in progress · ⬜ not started
 
@@ -92,7 +92,18 @@ See [overview](lessons/04-mlx-apple-silicon/00-overview.md). All 12 lessons draf
 12. [Picking Your Tool](lessons/04-mlx-apple-silicon/12-picking-your-tool.md)
 
 ### 5. Mobile & Edge Runtimes
-See [overview](lessons/mobile-edge-runtimes-overview.md).
+See [overview](lessons/05-mobile-edge-runtimes/00-overview.md). All 10 lessons drafted:
+
+1. [The Edge Runtime Map](lessons/05-mobile-edge-runtimes/01-edge-runtime-map.md)
+2. [Model Formats](lessons/05-mobile-edge-runtimes/02-model-formats.md)
+3. [Core ML Deep Dive](lessons/05-mobile-edge-runtimes/03-coreml-deep-dive.md)
+4. [ONNX Runtime on iOS/macOS](lessons/05-mobile-edge-runtimes/04-ort-apple.md)
+5. [ExecuTorch](lessons/05-mobile-edge-runtimes/05-executorch.md)
+6. [LiteRT (Formerly TFLite)](lessons/05-mobile-edge-runtimes/06-litert.md)
+7. [ONNX Runtime Mobile](lessons/05-mobile-edge-runtimes/07-ort-mobile.md)
+8. [Qualcomm Hexagon NPU + QNN SDK](lessons/05-mobile-edge-runtimes/08-qualcomm-hexagon-qnn.md)
+9. [llama.cpp / ggml](lessons/05-mobile-edge-runtimes/09-llama-cpp-ggml.md)
+10. [The Runtime Decision Tree](lessons/05-mobile-edge-runtimes/10-runtime-decision-tree.md)
 
 ### 6. On-Device LLM Inference
 See [overview](lessons/on-device-llm-inference-overview.md).
@@ -130,4 +141,4 @@ Lessons are generated in batches across sessions, in order. Each generated lesso
 
 ## Currently being written
 
-**Modules 1–4 complete (48/48 across the depth-track foundation).** Next session: Module 5 — Mobile & Edge Runtimes.
+**Modules 1–5 complete (58/188).** Next session: Module 6 — On-Device LLM Inference.
