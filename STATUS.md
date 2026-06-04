@@ -14,12 +14,12 @@ Updated: 2026-06-04
 | 4  | MLX & Apple Silicon Internals | 12 | ✅ | 12 / 12 |
 | 5  | Mobile & Edge Runtimes        | 10 | ✅ | 10 / 10 |
 | 6  | On-Device LLM Inference       | 12 | ✅ | 12 / 12 |
-| 7  | Inference from Scratch        | 54 | ✅ | 0 / 54 |
+| 7  | Inference from Scratch        | 54 | ✅ | 54 / 54 |
 | 8  | Distributed Systems          | ~11 | ⬜ | 0 / 11 |
 | 9  | Cluster Orchestration         | 15 | ✅ | 0 / 15 |
 | 10 | ML Platform Engineering       | 14 | ✅ | 0 / 14 |
 | 11 | Agents from Scratch           | 24 | ✅ | 0 / 24 |
-|    | **Total**                     | **188** |  | **70 / 188** |
+|    | **Total**                     | **188** |  | **124 / 188** |
 
 Legend: ✅ done · 🟡 in progress · ⬜ not started
 
@@ -122,7 +122,17 @@ See [overview](lessons/06-on-device-llm-inference/00-overview.md). All 12 lesson
 12. [Real-Time Interactive Use Cases (Module Wrap)](lessons/06-on-device-llm-inference/12-real-time-interactive-wrap.md)
 
 ### 7. Inference from Scratch
-See [overview](lessons/inference-from-scratch-overview.md). 54 lessons across 9 parts (attention, positional encodings, KV cache, sampling, MoE, quantization, serving, long context, block-level choices).
+See [overview](lessons/07-inference-from-scratch/00-overview.md). All 54 lessons drafted across 9 parts.
+
+Part 1 — Attention family: lessons [1](lessons/07-inference-from-scratch/01-self-attention-first-principles.md)–[9](lessons/07-inference-from-scratch/09-linear-attention.md).
+Part 2 — Positional encodings: lessons [10](lessons/07-inference-from-scratch/10-why-positions-matter.md)–[15](lessons/07-inference-from-scratch/15-rope-scaling.md).
+Part 3 — KV cache & memory: lessons [16](lessons/07-inference-from-scratch/16-why-kv-cache-exists.md)–[21](lessons/07-inference-from-scratch/21-streaming-llm-attention-sinks.md).
+Part 4 — Sampling & decoding: lessons [22](lessons/07-inference-from-scratch/22-sampling-methods.md)–[28](lessons/07-inference-from-scratch/28-multi-token-prediction.md).
+Part 5 — Mixture of Experts: lessons [29](lessons/07-inference-from-scratch/29-moe-from-scratch.md)–[34](lessons/07-inference-from-scratch/34-expert-parallelism.md).
+Part 6 — Quantization for inference: lessons [35](lessons/07-inference-from-scratch/35-int8-int4-basics.md)–[40](lessons/07-inference-from-scratch/40-bitnet.md).
+Part 7 — Serving systems: lessons [41](lessons/07-inference-from-scratch/41-continuous-batching.md)–[46](lessons/07-inference-from-scratch/46-tensor-parallelism-inference.md).
+Part 8 — Long context & test-time compute: lessons [47](lessons/07-inference-from-scratch/47-ring-attention.md)–[50](lessons/07-inference-from-scratch/50-reasoning-models.md).
+Part 9 — Block-level + wrap: lessons [51](lessons/07-inference-from-scratch/51-rmsnorm-vs-layernorm.md)–[54](lessons/07-inference-from-scratch/54-tokenization-and-module-wrap.md).
 
 ### 8. Distributed Systems
 Overview pending. Planned lessons:
@@ -154,4 +164,4 @@ Lessons are generated in batches across sessions, in order. Each generated lesso
 
 ## Currently being written
 
-**Modules 1–6 complete (70/188).** Next session: Module 7 — Inference from Scratch (54 lessons across 9 parts).
+**Modules 1–7 complete (124/188 = 66%).** Next session: Module 8 — Distributed Systems (overview pending, 11 lessons planned).
