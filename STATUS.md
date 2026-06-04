@@ -15,11 +15,11 @@ Updated: 2026-06-04
 | 5  | Mobile & Edge Runtimes        | 10 | ✅ | 10 / 10 |
 | 6  | On-Device LLM Inference       | 12 | ✅ | 12 / 12 |
 | 7  | Inference from Scratch        | 54 | ✅ | 54 / 54 |
-| 8  | Distributed Systems          | ~11 | ⬜ | 0 / 11 |
+| 8  | Distributed Systems          | 11 | ✅ | 11 / 11 |
 | 9  | Cluster Orchestration         | 15 | ✅ | 0 / 15 |
 | 10 | ML Platform Engineering       | 14 | ✅ | 0 / 14 |
 | 11 | Agents from Scratch           | 24 | ✅ | 0 / 24 |
-|    | **Total**                     | **188** |  | **124 / 188** |
+|    | **Total**                     | **188** |  | **135 / 188** |
 
 Legend: ✅ done · 🟡 in progress · ⬜ not started
 
@@ -135,19 +135,19 @@ Part 8 — Long context & test-time compute: lessons [47](lessons/07-inference-f
 Part 9 — Block-level + wrap: lessons [51](lessons/07-inference-from-scratch/51-rmsnorm-vs-layernorm.md)–[54](lessons/07-inference-from-scratch/54-tokenization-and-module-wrap.md).
 
 ### 8. Distributed Systems
-Overview pending. Planned lessons:
+See [overview](lessons/08-distributed-systems/00-overview.md). All 11 lessons drafted:
 
-1. The network layer that lets ML scale: RDMA, InfiniBand, RoCE
-2. NVLink, NVSwitch, and the bandwidth wall
-3. NCCL: collectives and topology awareness
-4. AllReduce algorithms: ring, tree, double binary tree
-5. Distributed Data Parallel (DDP) from first principles
-6. ZeRO and FSDP: sharding optimizer state
-7. Tensor parallelism: Megatron-style sharding
-8. Pipeline parallelism: GPipe, PipeDream, 1F1B
-9. The 3D parallelism grid
-10. Sequence parallelism and Ring Attention
-11. Module wrap: building a 3D-parallel training run
+1. [RDMA, InfiniBand, RoCE](lessons/08-distributed-systems/01-rdma-infiniband-roce.md)
+2. [NVLink, NVSwitch, and the Bandwidth Wall](lessons/08-distributed-systems/02-nvlink-nvswitch.md)
+3. [NCCL: Collectives and Topology Awareness](lessons/08-distributed-systems/03-nccl.md)
+4. [AllReduce Algorithms: Ring, Tree, Double Binary Tree](lessons/08-distributed-systems/04-allreduce-algorithms.md)
+5. [Distributed Data Parallel (DDP) from First Principles](lessons/08-distributed-systems/05-ddp.md)
+6. [ZeRO and FSDP: Sharding Optimizer State](lessons/08-distributed-systems/06-zero-fsdp.md)
+7. [Tensor Parallelism: Megatron-Style Sharding](lessons/08-distributed-systems/07-tensor-parallelism.md)
+8. [Pipeline Parallelism: GPipe, PipeDream, 1F1B](lessons/08-distributed-systems/08-pipeline-parallelism.md)
+9. [The 3D Parallelism Grid](lessons/08-distributed-systems/09-3d-parallelism.md)
+10. [Sequence Parallelism and Ring Attention](lessons/08-distributed-systems/10-sequence-parallelism-ring.md)
+11. [Module Wrap: Building a 3D-Parallel Training Run](lessons/08-distributed-systems/11-module-wrap.md)
 
 ### 9. Cluster Orchestration
 See [overview](lessons/cluster-orchestration-overview.md).
@@ -164,4 +164,4 @@ Lessons are generated in batches across sessions, in order. Each generated lesso
 
 ## Currently being written
 
-**Modules 1–7 complete (124/188 = 66%).** Next session: Module 8 — Distributed Systems (overview pending, 11 lessons planned).
+**Modules 1–8 complete (135/188 = 72%).** Next session: Module 9 — Cluster Orchestration (15 lessons).
