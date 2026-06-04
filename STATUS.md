@@ -17,9 +17,9 @@ Updated: 2026-06-04
 | 7  | Inference from Scratch        | 54 | ✅ | 54 / 54 |
 | 8  | Distributed Systems          | 11 | ✅ | 11 / 11 |
 | 9  | Cluster Orchestration         | 15 | ✅ | 15 / 15 |
-| 10 | ML Platform Engineering       | 14 | ✅ | 0 / 14 |
+| 10 | ML Platform Engineering       | 14 | ✅ | 14 / 14 |
 | 11 | Agents from Scratch           | 24 | ✅ | 0 / 24 |
-|    | **Total**                     | **188** |  | **150 / 188** |
+|    | **Total**                     | **188** |  | **164 / 188** |
 
 Legend: ✅ done · 🟡 in progress · ⬜ not started
 
@@ -169,7 +169,22 @@ See [overview](lessons/09-cluster-orchestration/00-overview.md). All 15 lessons 
 15. [Cluster Networking + Module Wrap](lessons/09-cluster-orchestration/15-networking-and-wrap.md)
 
 ### 10. ML Platform Engineering
-See [overview](lessons/ml-platform-engineering-overview.md).
+See [overview](lessons/10-ml-platform-engineering/00-overview.md). All 14 lessons drafted:
+
+1. [Experiment Tracking](lessons/10-ml-platform-engineering/01-experiment-tracking.md)
+2. [Model Registry and Versioning](lessons/10-ml-platform-engineering/02-model-registry.md)
+3. [Hyperparameter Sweeps at Scale](lessons/10-ml-platform-engineering/03-hyperparameter-sweeps.md)
+4. [Data Infrastructure for ML](lessons/10-ml-platform-engineering/04-data-infrastructure.md)
+5. [Checkpoint Storage at Scale](lessons/10-ml-platform-engineering/05-checkpoint-storage.md)
+6. [Training Observability](lessons/10-ml-platform-engineering/06-training-observability.md)
+7. [Cost Monitoring](lessons/10-ml-platform-engineering/07-cost-monitoring.md)
+8. [Workflow Orchestration](lessons/10-ml-platform-engineering/08-workflow-orchestration.md)
+9. [CI/CD for Models](lessons/10-ml-platform-engineering/09-ci-cd-for-models.md)
+10. [Feature Stores](lessons/10-ml-platform-engineering/10-feature-stores.md)
+11. [Model Serving Infrastructure](lessons/10-ml-platform-engineering/11-model-serving-infra.md)
+12. [A/B Testing Infrastructure](lessons/10-ml-platform-engineering/12-ab-testing.md)
+13. [Compliance and Governance](lessons/10-ml-platform-engineering/13-compliance-governance.md)
+14. [Incident Response + Module Wrap](lessons/10-ml-platform-engineering/14-incident-response-wrap.md)
 
 ### 11. Agents from Scratch
 See [overview](lessons/agents-from-scratch-overview.md).
@@ -180,4 +195,4 @@ Lessons are generated in batches across sessions, in order. Each generated lesso
 
 ## Currently being written
 
-**Modules 1–9 complete (150/188 = 80%).** Next session: Module 10 — ML Platform Engineering (14 lessons).
+**Modules 1–10 complete (164/188 = 87%).** Next session: Module 11 — Agents from Scratch (final module; 24 lessons).
