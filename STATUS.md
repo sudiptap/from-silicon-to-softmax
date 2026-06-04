@@ -8,7 +8,7 @@ Updated: 2026-06-03
 
 | #  | Module | Lessons planned | Overview | Lessons drafted |
 | -- | ------ | --------------- | -------- | --------------- |
-| 1  | The Low-Level Foundation     | ~12 | ✅ | 0 / 12 |
+| 1  | The Low-Level Foundation     | 12 | ✅ | 12 / 12 |
 | 2  | GPU & Parallelism            | ~13 | ⬜ | 0 / 13 |
 | 3  | ML Internals & Optimization  | ~11 | ⬜ | 0 / 11 |
 | 4  | MLX & Apple Silicon Internals | 12 | ✅ | 0 / 12 |
@@ -19,7 +19,7 @@ Updated: 2026-06-03
 | 9  | Cluster Orchestration         | 15 | ✅ | 0 / 15 |
 | 10 | ML Platform Engineering       | 14 | ✅ | 0 / 14 |
 | 11 | Agents from Scratch           | 24 | ✅ | 0 / 24 |
-|    | **Total**                     | **~188** |  | **0 / 188** |
+|    | **Total**                     | **188** |  | **12 / 188** |
 
 Legend: ✅ done · 🟡 in progress · ⬜ not started
 
@@ -28,20 +28,20 @@ Legend: ✅ done · 🟡 in progress · ⬜ not started
 Each module's overview is the canonical source for its lesson list. As lessons get drafted, they appear as separate files under `lessons/` and the count above ticks up.
 
 ### 1. The Low-Level Foundation
-Overview pending — to be written alongside Lesson 1. Planned lesson list:
+See [overview](lessons/01-bare-metal/00-overview.md). All 12 lessons drafted:
 
-1. The CPU mental model: pipelines, ILP, branch prediction
-2. Memory hierarchy: caches, prefetching, the latency numbers every engineer should know
-3. Rust for systems programming: why ML systems care
-4. Matrix multiply, the naive version: what makes it slow
-5. Cache-blocked matmul: tiling and loop reordering
-6. SIMD on x86: SSE/AVX intrinsics and autovectorization
-7. SIMD on ARM / Apple Silicon: NEON intrinsics
-8. From SIMD to threads: rayon and work stealing
-9. Linux `perf` for ML systems
-10. macOS profiling: Instruments, samply, hyperfine
-11. Memory profiling and NUMA awareness
-12. Module wrap: from 1 GFLOPs to 50+ GFLOPs
+1. [The CPU Mental Model](lessons/01-bare-metal/01-cpu-mental-model.md)
+2. [The Memory Hierarchy](lessons/01-bare-metal/02-memory-hierarchy.md)
+3. [Rust for Systems Programming](lessons/01-bare-metal/03-rust-for-systems.md)
+4. [Naive Matrix Multiply](lessons/01-bare-metal/04-naive-matmul.md)
+5. [Cache-Blocked Matrix Multiply](lessons/01-bare-metal/05-cache-blocked-matmul.md)
+6. [SIMD on x86 (SSE, AVX2, AVX-512)](lessons/01-bare-metal/06-simd-x86.md)
+7. [SIMD on ARM and Apple Silicon (NEON, AMX)](lessons/01-bare-metal/07-simd-arm-apple.md)
+8. [From SIMD to Threads (Rayon)](lessons/01-bare-metal/08-threading-rayon.md)
+9. [Linux `perf` for ML Systems](lessons/01-bare-metal/09-linux-perf.md)
+10. [macOS Profiling](lessons/01-bare-metal/10-macos-profiling.md)
+11. [Memory Profiling and NUMA Awareness](lessons/01-bare-metal/11-memory-numa.md)
+12. [Module Wrap: From 1 GFLOPs to 50+ GFLOPs](lessons/01-bare-metal/12-module-wrap.md)
 
 ### 2. GPU & Parallelism
 Overview pending. Planned lessons:
@@ -117,4 +117,4 @@ Lessons are generated in batches across sessions, in order. Each generated lesso
 
 ## Currently being written
 
-**Module 1 — The Low-Level Foundation** (lessons 1–12).
+**Module 1 complete.** Next session: Module 2 — GPU & Parallelism.

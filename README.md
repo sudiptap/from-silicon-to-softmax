@@ -12,7 +12,7 @@ The curriculum has a deliberate on-device lean. Apple Silicon, MLX, Core ML, Exe
 
 | # | Module | Focus |
 | - | ------ | ----- |
-| 1 | [The Low-Level Foundation](lessons/intro-to-ml-systems.md) | Systems programming in Rust, CPU architecture, SIMD, memory hierarchy, Linux & macOS performance profiling. |
+| 1 | [The Low-Level Foundation](lessons/01-bare-metal/00-overview.md) | Systems programming in Rust, CPU architecture, SIMD, memory hierarchy, Linux & macOS performance profiling. |
 | 2 | GPU & Parallelism | CUDA programming, Triton kernels, Metal & MPS, parallel algorithms, kernel fusion, FlashAttention. |
 | 3 | ML Internals & Optimization | Quantization (FP16/BF16/INT8/INT4), inference optimization, the math behind precision tradeoffs. |
 | 4 | [MLX & Apple Silicon Internals](lessons/mlx-apple-silicon-overview.md) | Unified memory, M-series SoC layout, Metal, MLX framework internals, ANE, MLX vs PyTorch MPS. |
