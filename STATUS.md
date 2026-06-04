@@ -2,7 +2,7 @@
 
 Tracks how much of the curriculum has been written. Each module has an **overview** (the lesson scaffold — titles + descriptions) and the **lesson content** itself (the actual readable material with code).
 
-Updated: 2026-06-03
+Updated: 2026-06-04
 
 ## Summary
 
@@ -10,7 +10,7 @@ Updated: 2026-06-03
 | -- | ------ | --------------- | -------- | --------------- |
 | 1  | The Low-Level Foundation     | 12 | ✅ | 12 / 12 |
 | 2  | GPU & Parallelism            | 13 | ✅ | 13 / 13 |
-| 3  | ML Internals & Optimization  | ~11 | ⬜ | 0 / 11 |
+| 3  | ML Internals & Optimization  | 11 | ✅ | 11 / 11 |
 | 4  | MLX & Apple Silicon Internals | 12 | ✅ | 0 / 12 |
 | 5  | Mobile & Edge Runtimes        | 10 | ✅ | 0 / 10 |
 | 6  | On-Device LLM Inference       | 12 | ✅ | 0 / 12 |
@@ -19,7 +19,7 @@ Updated: 2026-06-03
 | 9  | Cluster Orchestration         | 15 | ✅ | 0 / 15 |
 | 10 | ML Platform Engineering       | 14 | ✅ | 0 / 14 |
 | 11 | Agents from Scratch           | 24 | ✅ | 0 / 24 |
-|    | **Total**                     | **188** |  | **25 / 188** |
+|    | **Total**                     | **188** |  | **36 / 188** |
 
 Legend: ✅ done · 🟡 in progress · ⬜ not started
 
@@ -61,19 +61,19 @@ See [overview](lessons/02-gpu-parallelism/00-overview.md). All 13 lessons drafte
 13. [Module Wrap: When to Leave the Compiler Alone](lessons/02-gpu-parallelism/13-module-wrap.md)
 
 ### 3. ML Internals & Optimization
-Overview pending. Planned lessons:
+See [overview](lessons/03-ml-internals/00-overview.md). All 11 lessons drafted:
 
-1. The arithmetic of neural nets: where the FLOPs actually go
-2. FP16 vs BF16 vs FP8: the precision landscape
-3. INT8 quantization: math and recipes
-4. INT4 quantization: per-channel, per-group, the formats
-5. Calibration data and quantization-aware training basics
-6. AWQ: activation-aware weight quantization
-7. GPTQ: error-correcting quantization
-8. Pruning: structured vs unstructured, lottery tickets
-9. Distillation: from logits to step-by-step
-10. The Rust GPU frontier: cubecl, rust-gpu, where things stand
-11. Module wrap: picking your compression budget
+1. [The Arithmetic of Neural Nets](lessons/03-ml-internals/01-flop-arithmetic.md)
+2. [FP16 vs BF16 vs FP8: The Precision Landscape](lessons/03-ml-internals/02-precision-landscape.md)
+3. [INT8 Quantization: Math and Recipes](lessons/03-ml-internals/03-int8-quantization.md)
+4. [INT4 Quantization: Per-Channel, Per-Group, and the Formats](lessons/03-ml-internals/04-int4-quantization.md)
+5. [Calibration Data and Quantization-Aware Training Basics](lessons/03-ml-internals/05-calibration-qat.md)
+6. [AWQ: Activation-Aware Weight Quantization](lessons/03-ml-internals/06-awq.md)
+7. [GPTQ: Error-Correcting Quantization](lessons/03-ml-internals/07-gptq.md)
+8. [Pruning: Structured vs Unstructured, Lottery Tickets](lessons/03-ml-internals/08-pruning.md)
+9. [Distillation: From Logits to Step-by-Step](lessons/03-ml-internals/09-distillation.md)
+10. [The Rust GPU Frontier: cubecl, rust-gpu, Burn](lessons/03-ml-internals/10-rust-gpu-frontier.md)
+11. [Module Wrap: Picking Your Compression Budget](lessons/03-ml-internals/11-module-wrap.md)
 
 ### 4. MLX & Apple Silicon Internals
 See [overview](lessons/mlx-apple-silicon-overview.md).
@@ -117,4 +117,4 @@ Lessons are generated in batches across sessions, in order. Each generated lesso
 
 ## Currently being written
 
-**Module 1 complete (12/12). Module 2 complete (13/13).** Next session: Module 3 — ML Internals & Optimization (quantization).
+**Module 1 complete (12/12). Module 2 complete (13/13). Module 3 complete (11/11).** Next session: Module 4 — MLX & Apple Silicon Internals.
