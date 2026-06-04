@@ -9,7 +9,7 @@ Updated: 2026-06-03
 | #  | Module | Lessons planned | Overview | Lessons drafted |
 | -- | ------ | --------------- | -------- | --------------- |
 | 1  | The Low-Level Foundation     | 12 | ✅ | 12 / 12 |
-| 2  | GPU & Parallelism            | ~13 | ⬜ | 0 / 13 |
+| 2  | GPU & Parallelism            | 13 | ✅ | 4 / 13 |
 | 3  | ML Internals & Optimization  | ~11 | ⬜ | 0 / 11 |
 | 4  | MLX & Apple Silicon Internals | 12 | ✅ | 0 / 12 |
 | 5  | Mobile & Edge Runtimes        | 10 | ✅ | 0 / 10 |
@@ -19,7 +19,7 @@ Updated: 2026-06-03
 | 9  | Cluster Orchestration         | 15 | ✅ | 0 / 15 |
 | 10 | ML Platform Engineering       | 14 | ✅ | 0 / 14 |
 | 11 | Agents from Scratch           | 24 | ✅ | 0 / 24 |
-|    | **Total**                     | **188** |  | **12 / 188** |
+|    | **Total**                     | **188** |  | **16 / 188** |
 
 Legend: ✅ done · 🟡 in progress · ⬜ not started
 
@@ -44,21 +44,21 @@ See [overview](lessons/01-bare-metal/00-overview.md). All 12 lessons drafted:
 12. [Module Wrap: From 1 GFLOPs to 50+ GFLOPs](lessons/01-bare-metal/12-module-wrap.md)
 
 ### 2. GPU & Parallelism
-Overview pending. Planned lessons:
+See [overview](lessons/02-gpu-parallelism/00-overview.md). 4 of 13 lessons drafted:
 
-1. The GPU mental model
-2. NVIDIA GPU architecture: SMs, warps, occupancy
-3. Apple Silicon GPU architecture: how it differs
-4. CUDA basics: your first kernel
-5. CUDA memory hierarchy: global, shared, registers
-6. Triton: same GPU, 10x less code
+1. [The GPU Mental Model](lessons/02-gpu-parallelism/01-gpu-mental-model.md)
+2. [NVIDIA GPU Architecture](lessons/02-gpu-parallelism/02-nvidia-architecture.md)
+3. [Apple Silicon GPU Architecture](lessons/02-gpu-parallelism/03-apple-silicon-gpu-architecture.md)
+4. [CUDA Basics: Your First Kernel](lessons/02-gpu-parallelism/04-cuda-basics.md)
+5. CUDA Memory Hierarchy *(next session)*
+6. Triton: same GPU, 10× less code
 7. Metal Shading Language for Apple Silicon
-8. Kernel fusion: fewer GPU trips, faster code
-9. The reduction problem: adding a million numbers fast
-10. FlashAttention demystified: it's about memory, not math
-11. FlashAttention on Apple Silicon (MLX, MPSGraph)
-12. Profiling GPU kernels: Nsight, Xcode Metal debugger
-13. Module wrap: when to leave the compiler alone
+8. Kernel fusion
+9. The reduction problem
+10. FlashAttention demystified
+11. FlashAttention on Apple Silicon
+12. Profiling GPU kernels
+13. Module wrap
 
 ### 3. ML Internals & Optimization
 Overview pending. Planned lessons:
@@ -117,4 +117,4 @@ Lessons are generated in batches across sessions, in order. Each generated lesso
 
 ## Currently being written
 
-**Module 1 complete.** Next session: Module 2 — GPU & Parallelism.
+**Module 1 complete (12/12).** Module 2 partial (4/13). Next session resumes at Module 2, Lesson 5 (CUDA Memory Hierarchy).
